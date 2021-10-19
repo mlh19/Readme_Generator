@@ -1,30 +1,32 @@
-# dfsg
-## License
+# f
+// Displays the license Badge
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ## Table of Contents:
-  1. [Description](#description) 
-  2. [Installation](#Installation)
-  3. [Usage](#Usage) 
-  4. [License](#License) 
-  5. [Contributing](#Contributing)
-  6. [Tests](#Tests) 
-  7. [GitHub](#GitHub)
-  8. [Contact & Qustions](#contact)
+  1. ![License](#License) 
+  2. ![Description](#description) 
+  3. ![Installation](#Installation)
+  4. ![Usage](#Usage) 
+  5. ![Contributing](#Contributing)
+  6. ![Tests](#Tests) 
+  7. ![GitHub](#GitHub)
+  8. ![Contact](#Contact)
+  9. ![Other](#Other)
 
 
 
 ## Description
-sfgsgfh 
+f 
 ## Installation
-sfghsfgh
+f
 ## Usage
-dfghdfhg
+f
 ## Contributing
-sfghsfgh
+f
 ## Tests
-If you have any questions, please reach out to me!
-undefined
+f
 ## GitHub
-[Link to Personal Github](sfgh)
+Let's Connect [mlh19](https://www.github.com/mlh19)
 ## E-mail
-[Link to Personal E-mail](sfgh)
+Email Me [ml.hoover@yahoo.com](mailto:ml.hoover@yahoo.com)
+## Other
+d

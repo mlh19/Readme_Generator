@@ -22,17 +22,18 @@ function licenseBadge(data) {
 
 function generateMarkdown(data) {
     return `# ${data.title}
-## License
+// Displays the license Badge
 ${licenseBadge(data)}
 ## Table of Contents:
-  1. [Description](#description) 
-  2. [Installation](#Installation)
-  3. [Usage](#Usage) 
-  4. [License](#License) 
+  1. [License](#License) 
+  2. [Description](#description) 
+  3. [Installation](#Installation)
+  4. [Usage](#Usage) 
   5. [Contributing](#Contributing)
   6. [Tests](#Tests) 
   7. [GitHub](#GitHub)
-  8. [Contact & Qustions](#contact)
+  8. [Contact](#Contact)
+  9. [Other](#Other)
 
 
 
@@ -45,12 +46,13 @@ ${data.usage}
 ## Contributing
 ${data.contributing}
 ## Tests
-If you have any questions, please reach out to me!
 ${data.tests}
 ## GitHub
-[Link to Personal Github](${data.github})
+Let's Connect! [${data.github}](https://www.github.com/${data.github})
 ## E-mail
-[Link to Personal E-mail](${data.email})`
+Email Me! [${data.email}](mailto:${data.email})
+## Other
+${data.other}`
 }
 
 module.exports.generateMarkdown = generateMarkdown;
