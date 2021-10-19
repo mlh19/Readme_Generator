@@ -1,35 +1,31 @@
+// console.log("hello");
+
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs'); 
-const generate = require('./utils/generateMarkdown.js');
+const generate = require("./utils/generateMarkdown");
 const path = require('path');
 
 // TODO: Create an array of questions for user input
-const promptUser = () => {
-    return inquirer.prompt([
+    const readmeQuestions= [
       {
         type: "input",
-        message: "What is a good Title for your project?",
+        message: "What is a good title of your project?",
         name: "title", 
       },
       {
         type: "input",
-        message: "What is a good Description of your project?",
+        message: "What is a good description of your project?",
         name: "description", 
       },
       {
         type: "input",
-        message: "How do you Install your application?",
+        message: "How do you install your application?",
         name: "installation",
       },
       {
         type: "input",
-        message: "How do you Install your application?",
-        name: "installation",
-      },
-      {
-        type: "input",
-        message: "How do you Use your application?",
+        message: "How do you use your application?",
         name: "usage",
       },
       {
@@ -40,7 +36,7 @@ const promptUser = () => {
       },
       {
         type: "input",
-        message: "How can people Contribute to your project?",
+        message: "How to contribute to this project?",
         name: "contributing",
       },
       {
@@ -53,23 +49,17 @@ const promptUser = () => {
         message: "What is your email address where users and contributors can send questions?",
         name: "email"
       } 
-    ]);
-};
+    ];
 
-// init();
 
 // TODO: Create a function to write README file
-    promptUser()
-      .then((response) => fs.writeFileSync('README.md', generateMarkdown(response)))
+    function promptUser() {
+      inquirer.prompt(readmeQuestions).then((response) => fs.writeFileSync('README.md', generate.generateMarkdown(response)))
       .then(() => console.log('Successfully wrote to generateMarkdown'))
       .catch((err) => console.error(err));
+    }
 
-
-// TODO: Create a function to initialize app
-// function init() {}
-
-// Function call to initialize app
-// init();
+   promptUser(); 
 
 
 
