@@ -11,7 +11,7 @@ const readmeQuestions = [
   {
     type: "input",
     message: "What is the title of your application?",
-    name: "title",
+    name: "title", 
   },
   {
     type: "input",

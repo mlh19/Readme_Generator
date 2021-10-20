@@ -1,0 +1,10 @@
+Professional Readme Generator
+
+This application allows users to generate a Readme markdown file.
+
+Uses must have Visual Studio (VS) and inquirer installed.
+
+This application generates a Readme by asking a series of questions in the VS integradted terminal. Once all the questions have been answered, the Readme is generated in the current working directory on the left-hand side of the screen.
+
+To discuss any contributions, please reach out to Mary Lou Hoover.
+
