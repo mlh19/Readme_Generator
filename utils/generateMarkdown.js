@@ -23,26 +23,27 @@ function licenseBadge(data) {
 function generateMarkdown(data) {
     return `# ${data.title}
 // Displays the license Badge
-${licenseBadge(data)}
 ## Table of Contents:
-  1. [License](#License) 
+  1. [License](#license) 
   2. [Description](#description) 
-  3. [Installation](#Installation)
+  3. [Installation](#installation)
   4. [Usage](#Usage) 
-  5. [Contributing](#Contributing)
-  6. [Tests](#Tests) 
-  7. [GitHub](#GitHub)
-  8. [Contact](#Contact)
-  9. [Other](#Other)
+  5. [Contributing](#contributing)
+  6. [Tests](#tests) 
+  7. [GitHub](#gitHub)
+  8. [Contact](#contact)
+  9. [Other](#other)
 
 
-
+${licenseBadge(data)}
 ## Description
 ${data.description} 
 ## Installation
 ${data.installation}
 ## Usage
 ${data.usage}
+##License
+${data.license}
 ## Contributing
 ${data.contributing}
 ## Tests
